@@ -3,8 +3,8 @@ from email.message import EmailMessage
 
 
 def notification(receiver, subject, message):
-    sender_add = 'notiybot@gmail.com'
-    password = '@1989excaliburE'
+    sender_add = ''
+    password = ''
     receiver_add = receiver
 
     msg = EmailMessage()
